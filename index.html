@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section>
+        <div class="inputbox">
+            <input id="search" type="text" placeholder="enter a city">
+            <i class="fa-solid fa-location-dot loc"></i>
+            <i onclick="getWeather()" class="fa-solid fa-magnifying-glass search"></i>
+            
+        </div>
+        
+        <div id="weatherBox" class="weather-box">
+           
+        </div>
+        <div class="details">
+            <div id="humidity" class="humidity">
+                
+
+            </div>
+            <div id="wind" class="wind">
+
+
+            </div>
+        </div>
+        
+    </section>
+    
+</body>
+<script src="script.js"></script>   
+</html>

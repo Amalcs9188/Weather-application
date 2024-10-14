@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: 1s;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    background: linear-gradient(135deg,#07c1ef,#8cfa06);
+    /* background: rgb(64, 64, 64); */
+}
+
+section {
+    width: 30%;
+    height: max-content;
+    background: linear-gradient(135deg,#8cfa06,#07c1ef);
+    border-radius: 12px;
+    box-shadow: 2px 2px 12px #939090;
+    transition: 2s;
+}
+
+.inputbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #ffff;
+    position: relative;
+}
+
+.inputbox input {
+    width: 80%;
+    border-radius: 12px;
+    border: 2px solid #ffff;
+    position: relative;
+    height: 30px;
+    background: transparent;
+    color: #ffff;
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+
+}
+.inputbox input::placeholder{
+    color: #fff;
+}
+
+.inputbox i {
+    position: absolute;
+
+
+}
+
+.inputbox .loc {
+    left: 17%;
+    color: #ffff;
+    font-size: 1.3em;
+}
+
+.inputbox .search {
+    right: 17%;
+    color: #ffff;
+    font-size: 1.2em;
+    cursor: pointer;
+  
+}
+.weather-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 2s;
+}
+.weather-box img{
+    width: 50%;
+    margin-top: 30px
+}
+.weather-box h1{
+    padding: 16px;
+    font-size: 3em;
+    
+}
+.weather-box h3{
+    font-size:2em;
+
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+.humidity{
+    display: flex;
+    
+}
+.humidity i{
+    font-size: 2.5em;
+    padding: 5px;
+    align-items: center;
+}
+.humidity .humidity-details{
+    align-items: center;
+    padding: 5px;
+}
+.wind{
+    display: flex;
+    
+}
+.wind i{
+    font-size: 2.5em;
+    padding: 5px;
+    align-items: center;
+}
+.wind .wind-details{
+    align-items: center;
+    padding: 5px;
+}
+
+#time{
+    font-size: 2em;
+}
